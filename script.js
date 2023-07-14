@@ -47,10 +47,10 @@ var generatePassword = function() {
 }
 
 function prompts(){
-  upper = confirm("Password wil include uppercase letters.");
-  lower = confirm("Password wil include lowercase letters.");
-  nums = confirm("Password wil include numbers.");
-  special = confirm("Password wil include special characters.");
+  upper = confirm("Password will include uppercase letters.");
+  lower = confirm("Password will include lowercase letters.");
+  nums = confirm("Password will include numbers.");
+  special = confirm("Password will include special characters.");
   size = prompt("What length do you want the password to be? (min 8, max 128)");
 }
 
