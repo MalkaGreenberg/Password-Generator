@@ -26,7 +26,7 @@ var generatePassword = function() {
   }
 
   if (criteria == ""){
-    error = "Please choose at least one option.";
+    error = "Please choose at least one character type to include in the password.";
     return error;
   }
   if (size >= 8 && size <= 128){
